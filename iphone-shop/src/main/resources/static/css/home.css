@@ -1,0 +1,92 @@
+/* ===== Body & Fonts ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* ===== Header / Navbar ===== */
+.navbar {
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.nav-link {
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important; /* Màu vàng khi hover */
+}
+
+/* ===== Hero Section ===== */
+.bg-light.py-5.text-center {
+    background: linear-gradient(120deg, #e0f7fa, #e3f2fd);
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.bg-light.py-5.text-center h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.bg-light.py-5.text-center p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+/* ===== Buttons ===== */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* ===== Product Cards ===== */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    object-fit: cover;
+}
+
+/* ===== Footer ===== */
+footer.bg-dark.text-white {
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    border-top: 2px solid #007bff;
+}
